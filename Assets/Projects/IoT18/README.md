@@ -20,33 +20,42 @@ Current smart home solutions often lack seamless integration, requiring multiple
 #### Intrusion Detection
 | Component             | Function                                               | Purpose for Inclusion                                                                 |
 |----------------------------|-----------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| Raspberry Pi 4         | Acts as the central processing unit, handling sensor data and communication. | Provides computational power for processing sensor data, managing communication modules, and sending alerts to users. |
+| ✅ Raspberry Pi 4         | Acts as the central processing unit, handling sensor data and communication. | Provides computational power for processing sensor data, managing communication modules, and sending alerts to users. |
 |                            |                                                           | Supports USB boot and network boot, eliminating the need for an SD card.               |
-| PIR Sensor (HC-SR501)  | Detects motion by sensing infrared radiation changes from humans or animals. | Essential for motion detection; adjustable, reliable, and affordable.                  |
-| Ultrasonic Sensor (HC-SR04) | Measures distance to detect objects or intrusions beyond the PIR range.  | Enhances detection accuracy, reducing false positives.                                 |
+| ✅ PIR Sensor (HC-SR501)  | Detects motion by sensing infrared radiation changes from humans or animals. | Essential for motion detection; adjustable, reliable, and affordable.                  |
+| ✅ Ultrasonic Sensor (HC-SR04) | Measures distance to detect objects or intrusions beyond the PIR range.  | Enhances detection accuracy, reducing false positives.                                 |
 | Smartphone (Phone Camera) | Captures images or videos for visual confirmation of intrusions. | Acts as a cost-effective alternative to IP cameras; enables video surveillance.         |
 |                            |                                                           | Connects via Wi-Fi or Bluetooth to stream footage to the Raspberry Pi or cloud.         |
 | Wi-Fi Module (ESP8266 or ESP32) | Provides wireless communication between the Raspberry Pi and cloud or mobile devices. | Enables IoT functionality for sending alerts and notifications over a network.         |
-| Buzzer or Alarm        | Produces an audible alert when an intrusion is detected.  | Provides immediate local notification for nearby individuals.                          |
-| LED Indicators         | Provides visual feedback for system status (e.g., active, idle, triggered). | Helps monitor the operational state of the system locally.                              |
-| Power Supply (5V Adapter) | Powers the Raspberry Pi, sensors, and communication modules. | Ensures stable operation of all components.                                            |
-| USB Drive (or SSD)     | Storage medium for booting the Raspberry Pi and temporary data storage. | Used for booting the OS and storing temporary files. Can replace SD cards.             |
+| ✅ Buzzer or Alarm        | Produces an audible alert when an intrusion is detected.  | Provides immediate local notification for nearby individuals.                          |
+| ✅ LED Indicators (20)       | Provides visual feedback for system status (e.g., active, idle, triggered). | Helps monitor the operational state of the system locally.                              |
+| ✅ Power Supply (5V Adapter) | Powers the Raspberry Pi, sensors, and communication modules. | Ensures stable operation of all components.                                            |
+| ✅ USB Drive     | Storage medium for booting the Raspberry Pi and temporary data storage. | Used for booting the OS and storing temporary files. Can replace SD cards.             |
 | Breadboard             | Facilitates prototyping and wiring of components.         | Allows modular connections without soldering.                                          |
 | Jumper Wires           | Connects components to the Raspberry Pi or breadboard.    | Essential for creating circuit setups.                                                 |
-| Resistors (e.g., 330Ω) | Protects LEDs and other components by limiting current flow. | Prevents damage to sensitive components from overcurrent.                              |
-
+| ✅ Resistors (e.g., 330Ω) | Protects LEDs and other components by limiting current flow. | Prevents damage to sensitive components from overcurrent.                              |
+| ✅ IR Sensor TCRT5000 (2)            |                                                               |                                             |
+| ✅ GSM Module SIM800L                |                                                                  |                                          |
+| ✅ Biometric Sensor - R 307           |                                                               |                                           |
+| ✅ Sound Sensor KY-038                 |                                                              |                                            |
+| ✅ Alert Button (6*6 Tackle Push Button)  |                                                                  |                                    |
+| ✅ Relay Module - Songle SRD05VDC-SL-C (5V 2 Channel Relay Module) |                                            |                                 |
+| ✅ Voltage Regulator LM7805              |                                                            |                                            |
+| ✅ Touch Sensor TTP223B                  |                                                            |                                           |
+| ✅ RTC Module DS3231                     |                                                             |                                           |
 
 #### Health Monitoring Components
 
 | Component                 | Model       | Function                                      | Purpose for Inclusion                              |
 |-------------------------------|-----------------|--------------------------------------------------|------------------------------------------------------|
 | Pulse Oximeter Sensor     | MAX30102        | Measures heart rate and SpO₂.                    | Vital for monitoring cardiovascular health.          |
-| Body Temperature Sensor   | DS18B20         | Measures body temperature with high accuracy.    | Detects fever or hypothermia.                        |
+| ✅ Body Temperature Sensor   | DS18B20         | Measures body temperature with high accuracy.    | Detects fever or hypothermia.                        |
 | Non-Contact IR Temperature Sensor | MLX90614  | Measures temperature without direct contact.     | Hygienic and convenient for wearable devices.        |
 | Blood Pressure Sensor Module | SEN-11574    | Tracks systolic and diastolic pressure.          | Monitors blood pressure for overall health.          |
 | ECG Sensor Module         | AD8232         | Records electrical activity of the heart (ECG).  | Detects heart conditions and arrhythmias.            |
 | Respiration Sensor        | MPXV7002DP     | Measures breathing patterns and respiration rate.| Useful for monitoring respiratory health.            |
-| Accelerometer and Gyroscope | MPU6050      | Tracks body motion and physical activity.        | Detects falls and movement, useful for elderly care. |
+| ✅ Accelerometer and Gyroscope | MPU6050      | Tracks body motion and physical activity.        | Detects falls and movement, useful for elderly care. |
+| ✅ Heart Rate Sensor | MAX30100 |                                                               |                                             |
 
 ---
 
