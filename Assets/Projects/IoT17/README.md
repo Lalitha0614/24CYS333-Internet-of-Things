@@ -22,16 +22,11 @@ The system requires the following components:
 
 | **Component**         | **Purpose**                                                                                         |
 |------------------------|---------------------------------------------------------------------------------------------------------|
-| **IR Sensor**          | Detects proximity or movement, used for detecting vehicle presence.                                     |
-| **Lithium-Ion Battery**| Simulates the vehicle's battery for monitoring purposes.                                                |
-| **LCD**                | Displays battery performance, including voltage, current, and other parameters.                         |
-| **Relay**              | Acts as a switch to control the connection or disconnection of the battery circuit for safety or testing purposes. |
-| **TP4056 Module**      | Charging module for safely charging the Lithium-Ion battery.                                            |
-| **ESP8266**            | Microcontroller used for IoT connectivity, enabling the project to transmit battery health data wirelessly. |
-| **LED**                | Indicates the status of the battery (e.g., charging, fully charged, or error).                          |
-| **Resistors**          | Used to regulate current and voltage in the circuit.                                                   |
-| **Connecting Wires**   | Facilitate connections between components.                                                             |
-
+| **Lithium-Ion Battery** ✅ | Simulates the vehicle's battery for monitoring purposes.                                                |
+| **TP4056 Module** ✅      | Charging module for safely charging the Lithium-Ion battery.                                            |
+| **ESP32** ✅            | Microcontroller used for IoT connectivity, enabling the project to transmit battery health data wirelessly. |
+| **DHT22 Digital Temperature and Humidity Sensor**✅ | Monitors the ambient temperature and humidity near the battery, providing crucial environmental data that can impact battery performance and safety. |
+| **Connecting Wires**✅   | Facilitate connections between components.  |                                                     
 
 ---
 
