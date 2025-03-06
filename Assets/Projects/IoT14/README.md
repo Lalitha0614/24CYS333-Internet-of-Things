@@ -25,10 +25,10 @@ Despite advancements in technology, there remains a critical gap in creating a r
 | **Component**                  | **Specification**                                        | **Purpose**                                            |
 |--------------------------------|---------------------------------------------------------|-------------------------------------------------------|
 | **TTGO T-Call ESP32 SIM800L**  | ESP32-SIM800L                                           | Microcontroller with GSM capabilities for communication. |
-| **MPU6050**                    | 6-axis accelerometer and gyroscope (MPU-6050)          | Detects motion and impact for accident detection.     |
-| **NEO6M GPS Module**           | NEO-6M                                                 | Provides real-time location tracking.                |
-| **Charging Boost Step-up Module** | MT3608, Input: 2-24V, Output: 5-28V                 | Manages power supply and battery charging.           |
-| **18650 Battery**              | Rechargeable lithium-ion, 3.7V, 2200mAh               | Provides portable power to the system.               |
+| **MPU6050** ✅                    | 6-axis accelerometer and gyroscope (MPU-6050)          | Detects motion and impact for accident detection.     |
+| **NEO6M GPS Module** ✅           | NEO-6M                                                 | Provides real-time location tracking.                |
+| **Charging Boost Step-up Module** ✅ | MT3608, Input: 2-24V, Output: 5-28V                 | Manages power supply and battery charging.           |
+| **18650 Battery** ✅             | Rechargeable lithium-ion, 3.7V, 2200mAh               | Provides portable power to the system.               |
 | **Push Button and Slide Switch** | Generic                                               | User interface for system control and power toggling. |
 | **10k ohm Resistor**           | ±5% tolerance                                          | Stabilizes circuit and voltage levels.               |
 | **USB Type-A Connector**       | Type-A                                                 | Used for charging and programming purposes.          |
