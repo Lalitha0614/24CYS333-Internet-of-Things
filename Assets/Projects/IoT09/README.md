@@ -23,14 +23,14 @@ A GPS module will enable real-time tracking, allowing users and administrators t
 
 | Component                  | Functionality                                                                                    |
 |----------------------------|--------------------------------------------------------------------------------------------------|  
-| ESP 32 Micro controller    | Core control unit to handle logic.                                                               |
-| Servo Motor                | Simulates the lock/unlock mechanism for the bike-sharing system.                                 |
-| GPS Module (NEO-6M)        | Tracks the bike's location in real time and enables location based features.                     |
-| OLED/LED Display Panel     | Displays the range of the vehicle and system status for additional user feedback.                |
-| Buzzer                     | Provides audio feedback for alerts like successful payment, unlocking, or unauthorized access.   |
+| ESP 32 Micro controller✅   | Core control unit to handle logic.                                                               |
+| Servo Motor ✅              | Simulates the lock/unlock mechanism for the bike-sharing system.                                 |
+| GPS Module (NEO-6M) ✅     | Tracks the bike's location in real time and enables location based features.                     |
+| OLED/LED Display Panel ✅  | Displays the range of the vehicle and system status for additional user feedback.                |
+| Buzzer ✅                   | Provides audio feedback for alerts like successful payment, unlocking, or unauthorized access.   |
 | Power Supply (Battery)     | Ensures portability and uninterrupted power supply to the system.                                |
 | LED indicators             | Visual indicators for system statuses such as power, lock status, payment success, or errors.    |
-| Breadboard and Jump Wires  | Allow easy connections for assembling and testing components.                                    |
+| Breadboard ✅ and Jump Wires  | Allow easy connections for assembling and testing components.                                    |
 
 ---
 
